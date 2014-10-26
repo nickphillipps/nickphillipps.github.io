@@ -1,5 +1,5 @@
 name: Nick Site
 markdown: redcarpet
 pygments: true
-baseurl: /nick
+baseurl: /
 permalink: none
