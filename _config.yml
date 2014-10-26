@@ -1,0 +1,5 @@
+name: Nick Site
+markdown: redcarpet
+pygments: true
+baseurl: /nick
+permalink: none
