@@ -1,9 +1,4 @@
-name: Nick Site
+name: Nicks Site
 markdown: redcarpet
 pygments: true
-<<<<<<< HEAD
 permalink: none
-=======
-baseurl: /nickphillipps
-permalink: none
->>>>>>> FETCH_HEAD
