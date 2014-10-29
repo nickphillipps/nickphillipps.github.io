@@ -1,0 +1,139 @@
+---
+---
+	html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+html{
+	background: #eee;
+	color:#333;
+	font-size: 16px;
+	font-size: 4vw;
+	border-top: solid 10px;
+}
+
+
+#header{
+	
+
+}
+
+a {
+	color: #888;
+}
+
+h1,h2{
+	font-family: Raleway, sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+body{
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	margin: 0 auto;
+}
+
+
+#main{
+	margin: 0 5%;
+}
+
+#instafeed{
+	width: 60%;
+	max-width: 100%;
+	float: left;
+	position: relative;
+	top: -8vw;
+	margin-top: 8vw;
+}
+
+#instafeed a{
+	display: block;
+	line-height: 0;
+}
+
+
+#instafeed img{
+	width: 100%;
+}
+
+
+
+#twitter{
+/*
+	width:40%;
+	max-width: 100%;
+	padding: 1em 1em 20%;
+	background: #000;
+	position: relative;
+	float: left;
+*/
+
+
+color: #eee;
+width: 40%;	
+max-width: 100%;
+padding: 2%;
+background: #000;
+background-image:url(twitter.svg);
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+float: left;
+height: 40vw;
+font-size: 3.5vw;
+margin-top: 8vw;
+overflow: hidden;
+
+
+}
+
+#twitter .citation{
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+
+}
+
+#tweeter ul{
+	list-style: none;
+	padding: 0;
+	display: inline;
+}
+#tweeter li{
+	display: inline;
+	}
+.tweet{
+	display: inline;
+}
+
+.tweet:before{
+		content: '"';
+		font-size: 2em;
+		position: absolute;
+		top:0;
+		left:0;
+	}
+
+
+#post{
+	clear: both;
+	background: #aaa url("placeholder.jpg");
+	background-size: cover; 
+	padding-top: 24vw;
+	padding-bottom: 8vw;
+	position: relative;
+	top: -21vw;
+	z-index: -10;
+
+}
+
+#post h2{
+	margin: 5%;
+}
