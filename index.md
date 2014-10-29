@@ -19,7 +19,7 @@ title: Nick Phillipps - Designer
 		
 		<section id="where">
 			<p>Geographically you can find me in Folkestone, Kent.</p>
-			<p>Online you can find me on <a href="https://twitter.com/nickphillipps">Twitter</a>, <a href="http://instagram.com/nickphillipps">Instagram</a> or on <a href="http://nickphillipps.tumblr.com/">Tumblr</a>.</p>
+			<p>Online you can find me on <a href="https://twitter.com/nickphillipps">Twitter</a>, <a href="http://instagram.com/nickphillipps">Instagram</a> & on <a href="http://nickphillipps.tumblr.com/">Tumblr</a>.</p>
 		</section>	
 
 		<aside>
