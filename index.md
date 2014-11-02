@@ -5,7 +5,7 @@ title: Nick Phillipps - Designer
 
 <div id="main">
 <header id="header">
-			<h1>Nick <br/>Phillipps</h1>
+			<h1>Nick <br/>Phillipps.</h1>
 
 </header>
 
