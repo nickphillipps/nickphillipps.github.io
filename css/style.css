@@ -1,7 +1,9 @@
 
-	html {
+html {
   box-sizing: border-box;
 }
+
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -14,6 +16,7 @@ html{
 	font-size: 4vw;
 	border-top: solid 10px;
 }
+
 
 
 #header{
@@ -133,3 +136,25 @@ overflow: hidden;
 #post h2{
 	margin: 5%;
 }
+
+
+
+
+
+@media all and (min-width: 768px) {
+
+	html{
+		font-size: 3vw;
+	}
+
+	#main{
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	#post{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	}

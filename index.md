@@ -26,15 +26,12 @@ title: Nick Phillipps - Designer
 			<p>E-mail me at <a href="mailto:nick@nickphillipps.co.uk">nick@nickphillipps.co.uk</a></p>
 		</aside>
 </div>
-
-
  <section id="instafeed">
  </section>
  <section id="twitter">
  	<span id="tweeter"></span>
  	<span class="citation">- <a href="https://twitter.com/NickPhillipps">Me on twitter</a></span>
  </section>
-
  <section id="post">
 	<h2> Section coming soon...</h2>
  </section>
