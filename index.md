@@ -8,10 +8,6 @@ title: Nick Phillipps - Designer
 			<h1>Nick <br/>Phillipps</h1>
 
 </header>
-
-
-
-
 		<section id="what">
 		<p>I design things & I make things.</p>
 		<p>Some digital & some physical.</p>
