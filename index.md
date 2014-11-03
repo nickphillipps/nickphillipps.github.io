@@ -28,3 +28,5 @@ title: Nick Phillipps - Designer
  <section id="post">
 	<h2> Section coming soon...</h2>
  </section>
+
+
