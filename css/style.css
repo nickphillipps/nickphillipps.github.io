@@ -25,7 +25,7 @@ html{
 }
 
 a {
-	color: #888;
+	color: #666;
 }
 
 h1,h2{
@@ -165,6 +165,10 @@ overflow: hidden;
 
 	html{
 		font-size: 2vw;
+	}
+
+	html .post{
+		font-size: 24px;
 	}
 
 	body{
