@@ -147,9 +147,10 @@ overflow: hidden;
 }
 
 
-#post a{
+#latestPostLink{
 	text-decoration: none;
 	color: #000;
+	display: block;
 }
 
 
