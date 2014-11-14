@@ -1,0 +1,10 @@
+{% for post in site.posts limit:1 %}
+
+ <section id="post" {% if post.image %} style="background-image:url('{{post.image}}');" {% endif %}>
+
+<h2 class="title"><a href="{{ post.url }}" class="js-pjax">{{ post.title }}</a></h2>
+
+
+ </section>
+{% endfor %}
+

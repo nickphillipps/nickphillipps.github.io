@@ -11,12 +11,16 @@ html {
 
 html{
 	background: #eee;
-	color:#333;
+	color:#444;
 	font-size: 16px;
 	font-size: 4vw;
 	border-top: solid 10px;
+	line-height: 1.5;
 }
 
+li{
+	margin-bottom: 0.5em;
+}
 
 
 #header{
@@ -35,8 +39,8 @@ h1,h2{
 }
 
 body{
-	font-family: Roboto, sans-serif;
-	font-weight: 300;
+	font-family: 'Droid serif', serif;
+	font-weight: 400;
 	margin: 0 auto;
 }
 
@@ -52,11 +56,13 @@ body{
 	position: relative;
 	top: -8vw;
 	margin-top: 8vw;
+	z-index: 10;
 }
 
 #instafeed a{
 	display: block;
 	line-height: 0;
+
 }
 
 
@@ -89,7 +95,7 @@ background-repeat: no-repeat;
 position: relative;
 float: left;
 height: 40vw;
-font-size: 3.5vw;
+font-size: 3vw;
 margin-top: 8vw;
 overflow: hidden;
 
@@ -129,12 +135,21 @@ overflow: hidden;
 	padding-bottom: 8vw;
 	position: relative;
 	top: -21vw;
-	z-index: -10;
 
 }
 
 #post h2{
 	margin: 5%;
+}
+
+#post h2:before{
+	content: "Latest Post:";
+}
+
+
+#post a{
+	text-decoration: none;
+	color: #000;
 }
 
 
@@ -184,7 +199,7 @@ overflow: hidden;
 
 		#twitter{
 			height: 424px;
-			font-size: 2.5vw;
+			font-size: 36px;
 			margin-top: 70px;
 		}
 

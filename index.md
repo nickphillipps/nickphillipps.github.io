@@ -25,8 +25,5 @@ title: Nick Phillipps - Designer
  	<span id="tweeter"></span>
  	<span class="citation">- <a href="https://twitter.com/NickPhillipps">Me on twitter</a></span>
  </section>
- <section id="post">
-	<h2> Section coming soon...</h2>
- </section>
 
 
