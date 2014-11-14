@@ -73,16 +73,6 @@ body{
 
 
 #twitter{
-/*
-	width:40%;
-	max-width: 100%;
-	padding: 1em 1em 20%;
-	background: #000;
-	position: relative;
-	float: left;
-*/
-
-
 color: #eee;
 width: 40%;	
 max-width: 100%;
@@ -98,6 +88,7 @@ height: 40vw;
 font-size: 3vw;
 margin-top: 8vw;
 overflow: hidden;
+z-index: 10;
 
 
 }
