@@ -1,6 +1,6 @@
+
 html {
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 
@@ -16,6 +16,7 @@ html{
 	font-size: 4vw;
 	border-top: solid 10px;
 	line-height: 1.5;
+	overflow-x: hidden;
 }
 
 li{
@@ -41,12 +42,15 @@ h1,h2{
 body{
 	font-family: 'Droid serif', serif;
 	font-weight: 400;
-	margin: 0 auto;
 	overflow-x: hidden;
+	margin-left: 0;
+}
+.bigOl{
+	margin: 0 auto;
 }
 
 
-#main{
+#main, #mainFooter{
 	margin: 0 5%;
 }
 
@@ -123,12 +127,14 @@ z-index: 10;
 	clear: both;
 	background: #aaa url("placeholder.jpg");
 	background-size: cover; 
-	padding-top: 24vw;
+	padding-top: 16vw;
 	padding-bottom: 8vw;
 	position: relative;
 	top: -21vw;
 
 }
+
+
 
 #post h2{
 	margin: 5%;
@@ -175,11 +181,11 @@ z-index: 10;
 		font-size: 2vw;
 	}
 
-	html .post{
-		font-size: 24px;
+	.post, #mainFooter{
+		font-size: 20px;
 	}
 
-	body{
+	.bigOl{
 		max-width: 1060px;
 	}
 		#main, #mainFooter{
@@ -197,5 +203,5 @@ z-index: 10;
 		}
 
 }
-
+	
 
