@@ -1,6 +1,6 @@
-
 html {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 
@@ -42,6 +42,7 @@ body{
 	font-family: 'Droid serif', serif;
 	font-weight: 400;
 	margin: 0 auto;
+	overflow-x: hidden;
 }
 
 
