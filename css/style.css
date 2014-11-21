@@ -5,33 +5,39 @@ html {
 
 
 *, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing: inherit; 
 }
 
 
 html{
 	background: #eee;
 	color:#444;
-	font-size: 16px;
-	font-size: 4vw;
+	font-size: 18px;
 	border-top: solid 10px;
 	line-height: 1.5;
 	overflow-x: hidden;
 }
+
+p, h1, h2, h3, h4, h5, h6, ul{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
 
 li{
 	margin-bottom: 0.5em;
 }
 
 
-#header{
-	
-
-}
-
 a {
 	color: #666;
 }
+
+hr{
+	border: solid 2px;
+}
+
+
 
 h1,h2{
 	font-family: Raleway, sans-serif;
@@ -43,19 +49,16 @@ body{
 	font-family: 'Droid serif', serif;
 	font-weight: 400;
 	overflow-x: hidden;
-	margin-left: 0;
-}
-.bigOl{
-	margin: 0 auto;
+	margin: 0;
 }
 
-
-#main, #mainFooter{
-	margin: 0 5%;
+#updates{
+	margin-left: 15vw;
+	margin-right: 15vw; 
 }
 
 #instafeed{
-	width: 60%;
+	width: 42vw;
 	max-width: 100%;
 	float: left;
 	position: relative;
@@ -75,11 +78,9 @@ body{
 	width: 100%;
 }
 
-
-
 #twitter{
 color: #eee;
-width: 40%;	
+width: 28vw;	
 max-width: 100%;
 padding: 2%;
 background: #000;
@@ -89,13 +90,11 @@ background-position: center;
 background-repeat: no-repeat;
 position: relative;
 float: left;
-height: 40vw;
-font-size: 3vw;
+height: 28vw;
+font-size: 2.5vw;
 margin-top: 8vw;
 overflow: hidden;
 z-index: 10;
-
-
 }
 
 #twitter .citation{
@@ -109,18 +108,27 @@ z-index: 10;
 	list-style: none;
 	padding: 0;
 	display: inline;
+	margin: 0;
 }
 #tweeter li{
 	display: inline;
+	margin: 0;
 	}
 .tweet{
-	display: inline;
+	margin: 0;
+	text-indent: -0.4em;
 }
 
 .tweet:before{
 		content: '"';
 	
 	}
+
+.tweet:after{
+		content: '"';
+	
+	}
+
 
 
 #post{
@@ -142,6 +150,7 @@ z-index: 10;
 
 #post h2:before{
 	content: "Latest Post:";
+	display: block;
 }
 
 
@@ -149,45 +158,69 @@ z-index: 10;
 	text-decoration: none;
 	color: #000;
 	display: block;
+	margin: 0 5vw;
+}
+
+
+.pullOut{
+	font-family: Raleway, sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: left;
+	color: #eee;
+	background: #444;
+	margin: 0.5em 0;
+	padding: 0.5em 0.75em 0.65em;
+	line-height: 1;
+	margin-left: 15vw;
+}
+
+
+.pullOut:nth-of-type(even){
+	text-align: right;
+	margin-right: 15vw;
+	margin-left: 0;
+}
+
+blockquote.pullOut{
+	text-indent: -0.4em;
+}
+
+blockquote.pullOut:before{
+	content: '"';
+	font-size: 1.5em;
+}
+blockquote.pullOut:after{
+	content: '"';
+	font-size: 1.5em;
 }
 
 
 
 
+@media all and (min-width: 612px) {
 
-@media all and (min-width: 768px) {
-
-	html{
+/*	html{
 		font-size: 3vw;
+	}*/
+
+	p, h1, h2, h3, h4, h5, h6, ul{
+	margin-left: 15%;
+	margin-right: 15%;
+	}
+}
+
+
+
+@media all and (min-width: 866px) {
+
+
+	p, h1, h2, h3, h4, h5, h6, ul{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 600px;
 	}
 
-	#main, #mainFooter{
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	#post{
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	}
-
-
-
-@media all and (min-width: 1080px) {
-
-	html{
-		font-size: 2vw;
-	}
-
-	.post, #mainFooter{
-		font-size: 20px;
-	}
-
-	.bigOl{
-		max-width: 1060px;
-	}
 		#main, #mainFooter{
 			max-width: 960px;
 
@@ -198,7 +231,7 @@ z-index: 10;
 
 		#twitter{
 			height: 424px;
-			font-size: 36px;
+			font-size: 32px;
 			margin-top: 70px;
 		}
 
