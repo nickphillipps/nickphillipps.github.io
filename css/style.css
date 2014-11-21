@@ -221,20 +221,6 @@ blockquote.pullOut:after{
 	max-width: 600px;
 	}
 
-		#main, #mainFooter{
-			max-width: 960px;
-
-		}
-		#post{
-			max-width: 960px;
-		}
-
-		#twitter{
-			height: 424px;
-			font-size: 32px;
-			margin-top: 70px;
-		}
-
 }
 	
 
