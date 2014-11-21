@@ -13,11 +13,11 @@
 
 <div id="oldPosts">
 	<h2>Older Posts</h2>
-	<ul>
+	<ol reversed id="oldPostList">
 {% for post in site.posts offset:1 %}
-	<li><h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
+	<li class="oldPost"><h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
 {% endfor %}
-	</ul>
+	</ol id="oldPostList">
 </div>
 
 {% include footer.html %}
