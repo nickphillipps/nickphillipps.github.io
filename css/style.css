@@ -204,7 +204,9 @@ blockquote.pullOut:after{
 }
 
 
-
+#mainFooter{
+	border-top: solid 10px;
+}
 
 @media all and (min-width: 612px) {
 
