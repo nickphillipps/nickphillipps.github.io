@@ -11,7 +11,7 @@ I find that I only seem to have small chunks of time spare, dotted here and ther
 
 So, my solution... Don't get try to get anything fully formed finished. 
 
-At the moment, I think I'm on the fifth(?) version of this site. The first version was just as a single html document with no styling. The second had some very basic css, the third had some my latest tweet and instagram shot, the fouth didnt look very different at all but hosting was moved over to github and and jekyll and by the time this post is live it will be the fifth variation which now includes posts.
+At the moment, I think I'm on the fifth(?) version of this site. The first version was just as a single html document with no styling. The second had some very basic css, the third had  my latest tweet and instagram shot, the fouth didnt look very different at all but hosting was moved over to github and jekyll and by the time this post is live it will be the fifth variation which now includes posts.
 
 So... If you have stumbled upon this site, the next time you come back, it will more than likely look a little different. 
 

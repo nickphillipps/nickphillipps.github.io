@@ -39,7 +39,7 @@ hr{
 
 
 
-h1,h2{
+h1,h2,h3,h4,h5,h6{
 	font-family: Raleway, sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -132,8 +132,7 @@ z-index: 10;
 	background-size: cover; 
 	padding-top: 16vw;
 	padding-bottom: 8vw;
-	position: relative;
-	top: -21vw;
+
 
 }
 
@@ -153,8 +152,22 @@ z-index: 10;
 	text-decoration: none;
 	color: #000;
 	display: block;
-	margin: 0 5vw;
+	margin: 0 5vw -21vw;
+	position: relative;
+	top: -21vw;
 }
+
+#oldPosts a{
+	text-decoration: none;
+	color: inherit;
+	font-weight: inherit;
+}
+
+#oldPosts h3{
+	margin-left: 0;
+	margin-right: 0;
+}
+
 
 
 .pullOut{
