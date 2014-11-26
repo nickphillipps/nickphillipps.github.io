@@ -83,7 +83,7 @@ background-position: center;
 background-repeat: no-repeat;
 position: relative;
 float: left;
-height: 40%;
+height: 40vw;
 font-size: 2.5vw;
 margin-top: 8vw;
 overflow: hidden;
@@ -230,12 +230,7 @@ blockquote.pullOut:after{
 
 	#twitter{
 		color: #eee;
-		width: 28%;	
 		height: 28vw;
-	}
-
-	#instafeed{
-		width: 42%;
 	}
 
 	#post h2{
