@@ -231,6 +231,7 @@ blockquote.pullOut:after{
 	#twitter{
 		color: #eee;
 		height: 28vw;
+		font-size: 2vw;
 	}
 
 	#post h2{
