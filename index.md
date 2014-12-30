@@ -4,8 +4,7 @@ title: Nick Phillipps - Designer
 nav: Home
 weight: 1
 ---
-<header id="header">
-			<h1>Nick <br/>Phillipps.</h1>
+<header id="header"><h1>Nick <br/>Phillipps.</h1>
 </header>
 <section id="what">
 	<p>I design things & I make things.</p>
