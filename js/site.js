@@ -1,12 +1,27 @@
 
 
-
-$( document ).ready(function() {
-//check for the window width
+var menutal = function () {
+      
 if($(window).width() > 612){
   //append to the p  
   $('#main-nav').insertBefore('#nav-anchor');
-}  });
+}  
+else{
+    $('#main-nav').insertAfter('#mainFooter');
+
+}};
+
+$(document).ready(menutal);
+$(window).resize(menutal);
+  
+
+
+
+
+
+
+
+
 
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
