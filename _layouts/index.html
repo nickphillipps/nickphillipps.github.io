@@ -1,4 +1,6 @@
 {% include head.html %}
+<div id="main">
+
     {{content}}
 
 <div id="updates">
@@ -11,13 +13,7 @@
 {% include post_latest.html %}    
 </div>
 
-<div id="oldPosts">
-	<h2>Older Posts</h2>
-	<ol reversed id="oldPostList">
-{% for post in site.posts offset:1 %}
-	<li class="oldPost"><h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
-{% endfor %}
-	</ol id="oldPostList">
+{% include home_post_loop.html %}    
 </div>
-
 {% include footer.html %}
+

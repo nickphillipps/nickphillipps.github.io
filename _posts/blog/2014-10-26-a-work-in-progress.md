@@ -2,7 +2,7 @@
 layout: post
 title:  "A Work In Progress"
 date:   2014-11-2 18:30:00
-categories: misc
+categories: blog misc
 ---
 
 Like 99% of designers/developers I've been wanting to update my website for some time... However, like 89% of designers/developers I've just not had the time to do it due to work, sleep and life getting in the way. 

@@ -1,6 +1,8 @@
 ---
 layout: index
 title: Nick Phillipps - Designer
+nav: Home
+weight: 1
 ---
 <header id="header">
 			<h1>Nick <br/>Phillipps.</h1>
