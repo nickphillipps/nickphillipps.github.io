@@ -4,5 +4,11 @@ pygments: true
 permalink: none
 
 prose:
-	rooturl: "/tree/master/_posts"
-	media: "img"
+  rooturl: '_posts'
+  siteurl: 'http://nickphillipps.co.uk/'
+  media: 'img'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
