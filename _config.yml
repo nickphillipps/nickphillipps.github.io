@@ -2,3 +2,7 @@ name: Nicks Site
 markdown: redcarpet
 pygments: true
 permalink: none
+
+
+rooturl: "_posts"
+media: "img"
