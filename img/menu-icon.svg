@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+    <g stroke="none" fill="#444">
+        <rect x="0" y="0" width="40" height="9" />
+        <rect x="0" y="15.5" width="40" height="9" />
+        <rect x="0" y="31" width="40" height="9" />
+        <animateTransform begin="click" attributeName="transform" type="rotate" dur="0.5s" from="0 20 20" to="-90 20 20" fill="freeze" />
+
+    </g>
+</svg>
