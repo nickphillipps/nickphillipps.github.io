@@ -4,5 +4,5 @@ pygments: true
 permalink: none
 
 prose:
-	rooturl: "/_posts"
+	rooturl: "/tree/master/_posts"
 	media: "img"
