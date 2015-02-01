@@ -1,6 +1,6 @@
 name: Nicks Site
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: none
 
 prose:

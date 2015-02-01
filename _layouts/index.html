@@ -1,16 +1,16 @@
 {% include head.html %}
-<div id="main">{{content}}
-<div id="updates">
-	<section id="instafeed">
-	</section>
-	<section id="twitter">
-		<span id="tweeter"></span>
-		<span class="citation">- <a href="https://twitter.com/NickPhillipps">Me on twitter</a></span>
-	</section>
+<div id="homeJazz" class="area">
+{% include site_title.html %}
+<section class="block content">
+    	{{ content }}
+</section>
+</div>
+<section id="writing" class="area">
+<header class="block">
+	<h2>Writing</h2>
+</header>
 {% include post_latest.html %}    
-</div>
-
-{% include home_post_loop.html %}    
-</div>
+{% include home_post_loop.html %}
+</section>
 {% include footer.html %}
 
