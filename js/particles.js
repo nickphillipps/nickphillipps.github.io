@@ -13,7 +13,7 @@
       };
       this.vx = 1 * Math.random() + .02;
       this.vy = 1 * Math.random() + .02;
-      this.radius = 1 * Math.random() * 3;
+      this.radius = 1 * Math.random() * 2;
       this.move = function() {
         this.x += this.vx * this.direction.x;
         this.y += this.vy * this.direction.y;
@@ -91,9 +91,9 @@
     ctx = void 0;
     particleCount = 20;
     particles = [];
-    colorArray = ["hsla(4, 100%, 59%, 0.4)", "hsla(4, 100%, 59%, 0.5)", "hsla(4, 100%, 59%, 0.7)", "hsla(4, 100%, 59%, 0.9)"];
+    colorArray = ["hsla(4, 100%, 59%, 0.4)", "hsla(4, 100%, 59%, 0.5)", "hsla(4, 100%, 59%, 0.6)", "hsla(4, 100%, 59%, 0.7)"];
     W = window.innerWidth;
-    H = window.innerHeight;
+    H = window.innerHeight * 1.2;
     canvas = $("#stars").get(0);
     canvas.width = W;
     canvas.height = H;
