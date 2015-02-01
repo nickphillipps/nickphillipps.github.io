@@ -3,6 +3,6 @@ markdown: redcarpet
 pygments: true
 permalink: none
 
-
-rooturl: "_posts"
-media: "img"
+prose:
+	rooturl: "_posts"
+	media: "img"
