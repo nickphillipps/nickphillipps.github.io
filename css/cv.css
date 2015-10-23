@@ -1,0 +1,72 @@
+/* line 4, ../_sass/cv.scss */
+h1, h2 {
+  clear: both;
+  padding-top: 1em;
+}
+
+@media (min-width: 500px) {
+  /* line 9, ../_sass/cv.scss */
+  .block {
+    width: 80%;
+  }
+}
+
+/* line 15, ../_sass/cv.scss */
+.label, .info {
+  display: inline-block;
+  padding: .25rem 0;
+  vertical-align: top;
+  max-width: 85%;
+}
+@media (min-width: 500px) {
+  /* line 15, ../_sass/cv.scss */
+  .label, .info {
+    display: block;
+    padding: .5rem;
+  }
+}
+
+/* line 28, ../_sass/cv.scss */
+.label {
+  color: #84979f;
+}
+@media (min-width: 500px) {
+  /* line 28, ../_sass/cv.scss */
+  .label {
+    float: left;
+    text-align: right;
+    width: 30%;
+    padding-left: 0;
+  }
+}
+
+/* line 39, ../_sass/cv.scss */
+.label.position {
+  display: none;
+}
+
+/* line 43, ../_sass/cv.scss */
+.info.position {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1;
+}
+
+@media (min-width: 500px) {
+  /* line 50, ../_sass/cv.scss */
+  .info {
+    float: right;
+    width: 70%;
+    padding-right: 0;
+  }
+}
+
+/* line 59, ../_sass/cv.scss */
+.field {
+  clear: both;
+}
+
+/* line 63, ../_sass/cv.scss */
+p {
+  margin: 0 0 1rem;
+}

@@ -22,11 +22,11 @@ a:hover{
 h1, h2, h3, h4, h5, h6 { font-family: $heading-font-family; font-weight: $heading-font-weight; text-transform: uppercase;}
 h1, h2 { line-height: 1.1; }
 h3, h4 { line-height: 1.3; }
-h1 { font-size: 300%; }
-h2 { font-size: 230%; }
-h3 { font-size: 200%; }
-h4 { font-size: 160%; }
-h5 { font-size: 130%; }
+h1 { font-size: $heading1-size; }
+h2 { font-size: $heading2-size; }
+h3 { font-size: $heading3-size; }
+h4 { font-size: $heading4-size; }
+h5 { font-size: $heading5-size; }
 
 i, em { font-style: italic; }
 b, strong { font-weight: 700; }

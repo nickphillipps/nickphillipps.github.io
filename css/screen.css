@@ -46,27 +46,27 @@ h3, h4 {
 
 /* line 25, ../_sass/_base_typography.scss */
 h1 {
-  font-size: 300%;
+  font-size: 55px;
 }
 
 /* line 26, ../_sass/_base_typography.scss */
 h2 {
-  font-size: 230%;
+  font-size: 40px;
 }
 
 /* line 27, ../_sass/_base_typography.scss */
 h3 {
-  font-size: 200%;
+  font-size: 35px;
 }
 
 /* line 28, ../_sass/_base_typography.scss */
 h4 {
-  font-size: 160%;
+  font-size: 30px;
 }
 
 /* line 29, ../_sass/_base_typography.scss */
 h5 {
-  font-size: 130%;
+  font-size: 25px;
 }
 
 /* line 31, ../_sass/_base_typography.scss */
@@ -331,29 +331,29 @@ hr {
   padding-top: 5px;
 }
 
-/* line 14, ../_sass/screen.scss */
+/* line 2, ../_sass/_global.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 19, ../_sass/screen.scss */
+/* line 7, ../_sass/_global.scss */
 html {
   background: white;
 }
 
-/* line 22, ../_sass/screen.scss */
+/* line 10, ../_sass/_global.scss */
 html, body {
   margin: 0;
 }
 
-/* line 26, ../_sass/screen.scss */
+/* line 14, ../_sass/_global.scss */
 #stars {
   position: fixed;
   top: 0;
   z-index: -1;
 }
 
-/* line 32, ../_sass/screen.scss */
+/* line 20, ../_sass/_global.scss */
 .block {
   padding: 10px;
   width: 580px;
@@ -361,13 +361,8 @@ html, body {
   margin: 20px auto;
 }
 
-/* line 41, ../_sass/screen.scss */
+/* line 29, ../_sass/_global.scss */
 .content {
   position: relative;
   display: block;
-}
-
-/* line 46, ../_sass/screen.scss */
-footer {
-  background: #bfd4d9;
 }

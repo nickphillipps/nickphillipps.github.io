@@ -1,0 +1,32 @@
+
+*{
+	box-sizing: border-box;
+}
+
+
+html{
+	background: $body-bg;
+}
+html,body{
+  margin: 0;
+}
+
+#stars{
+	position: fixed;
+	top: 0;
+	z-index: -1;	
+}
+
+.block{
+  padding: $base-size;
+  width: 580px;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+
+
+.content {
+	position: relative;
+ 	display: block;
+}
