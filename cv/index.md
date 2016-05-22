@@ -15,12 +15,7 @@ name: curriculum_vitae
 
 	<div class="field">
 		<label class="label"><i class="fa fa-home"></i></label>
-		<div class="info">1 Old School Court, Grimston Gardens, Folkestone, Kent, CT20 2UA</div>
-	</div>
-
-	<div class="field">
-		<label class="label"><i class="fa fa-phone"></i></label>
-		<div class="info">07590 682998</div>
+		<div class="info">Folkestone, Kent</div>
 	</div>
 
 
