@@ -9,9 +9,9 @@ name: home
 </section>
 <section id="where">
 	<p>Based in South East Kent.</p>
-	<p>Online you can find me on <a href="https://twitter.com/nickphillipps">Twitter</a>, <a href="http://instagram.com/nickphillipps">Instagram</a> & on <a href="https://dribbble.com/nickphillipps">Dribbble</a>.</p>
+	<p>Online you can find me on <a href="https://twitter.com/nickphillipps">Twitter</a>, <a href="http://instagram.com/nickphillipps">Instagram</a> & (rarely) on <a href="https://dribbble.com/nickphillipps">Dribbble</a>.</p>
 </section>	
 <aside>
-	<p>E-mail me at <a href="mailto:nick@nickphillipps.co.uk">nick@nickphillipps.co.uk</a></p>
+	<p>E-mail me at <a href="mailto:me@nickphillipps.co.uk">me@nickphillipps.co.uk</a></p>
 </aside>
 
