@@ -1,8 +1,0 @@
-<section class="block">
-	<h4>Older Posts</h4>
-	<ol reversed >
-{% for post in site.categories['blog'] offset:1 %}
-	<li><h5><a href="{{ post.url }}">{{ post.title }}</a></h5></li>
-{% endfor %}
-	</ol>
-</section>
