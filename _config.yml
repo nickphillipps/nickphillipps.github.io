@@ -1,0 +1,4 @@
+name: Nicks Site
+markdown: redcarpet
+highlighter: pygments
+permalink: none

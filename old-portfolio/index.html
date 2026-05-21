@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Nick Phillipps - UX Portfolio</title>
+  <meta name="description" content="The UX Portfolio of Nick Phillipps
+">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="canonical" href="http://nickphillipps.co.uk/portfolio">
+
+
+  <link href="http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet" type="text/css">
+
+</head>
+
+
+  <body>
+
+
+ 
+        <section id="intro">
+<div class="container">
+  <h1>Nick Phillipps</h1>
+  <h2>UX Portfolio</h2>
+
+
+<ol>
+<li><a href="#extras"> Theme Park Break Extras Optimisation</a> </li>
+<li><a href="#ghostProducts">Theme Park Resort Hotel Ghost Products</a> </li>
+<li><a href="#hotelControls">Improving Hotel Controls</a> </li>
+<li><a href="#callVolume">Reducing Call Volume</a> </li>
+<li><a href="#roomSelection">Room Selection Improvements</a> </li>
+<li><a href="#theatreConcept">Theatre Breaks Mobile Concept</a> </li>
+</ol>
+
+
+</div>  
+
+
+
+</section>
+
+
+
+
+<section id="extras">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>Theme Park Breaks Extras Stage</h2>
+      
+      <h4>Problem </h4>
+      <p>After switching to a new responsive booking flow, the extras stage was performing significantly worse compared to its predecessor.</p>
+
+      <h4>Hypothesis 1</h4>
+      <p>Customers are overwhelmed by the confusing controls and noise that surrounds them.</p>
+    </div>
+  </div>
+
+  <div class="row ">
+      <figure class="figure col-xs-6">
+        <figcaption class="figure-caption">Old Extras Stage</figcaption>
+        <img src="img/old-desktop.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+
+      <figure class="figure col-xs-6">
+        <figcaption class="figure-caption">Proposed Extras Stage</figcaption>
+        <img src="img/proposed-desktop.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <h4>Solution </h4>
+      <ul >
+        <li>Moving the descriptions into modals reduced the noise and allowed our content team more freedom to describe the extras in more detail.</li>
+        <li>GA data showed that 94.2% of customers did not change the party composition of the extras, so the option to change this was removed, except through the call centre.</li>
+        <li>User testing showed that occasionally users would struggle to activate the checkbox when using a touch based device, and it was also quite a visually messy solution. To fix both of these problems we swapped the checkbox out for a solid buttons with a clear CTA.</li>
+        <li>Data showed that only 10.4% of people amended the date on the extras, so to reduce noise further, the date controls were tidied away into the information modal.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <h4>Hypothesis 2</h4>
+      <p>Customers are unable to easily distinguish between the different extras presented to them.</p>
+      
+      <h4>Solution</h4>
+      <p>There are three types of extras on the page, extras that extended the break (extra nights in hotel), pre-booking of “essentials” that would normally need to be paid for on the day (parking, meals, fast passes) and finally additional enhancements (birthday packages, activity packs, etc.)</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-8 col-md-7">        
+      <p>We approached each of these “extras” separately. </p>
+      <p><strong>Essentials -</strong> The “essential extras” accounted for over 80% of all booked extras. To aid the user in locating these on the page quickly, we increased their prominance by breaking the flow of the page and switching from a horizontal list to a tile based design. This also enabled us to use larger images and give this section much more visual weight, without actually taking up any additional space.</p>
+    </div>
+
+    <figure class="figure col-sm-offset-1 col-sm-4 ">
+        <figcaption class="figure-caption">Proposed Essentials design</figcaption>
+        <img src="img/essentials.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+    </figure>
+  </div>
+      
+  <div class="row">
+    <div class="col-sm-6 col-md-7">
+      <p><strong>Additional Nights -</strong>The current format for additional nights was quite a complicated piece of UI. It used a date-picker that showed the full month with only the option to select either the day before or after the current stay date. </p>
+      <p>We simplified this UI by splitting it out into two separate elements - “Add an extra night to the start of your break” and “Add an extra night to the end of your break”.</p>
+    </div>
+    
+    <div class="col-sm-6 col-sm-offset-1 col-md-4 ">
+      <div class="row">      
+      <figure class="figure col-xs-6 col-sm-12">
+        <figcaption class="figure-caption">Proposed Extra night design</figcaption>
+        <img src="img/new-extra-night.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+      
+      <figure class="figure col-xs-6 col-sm-12">
+        <figcaption class="figure-caption">Old Extra night design</figcaption>
+        <img src="img/old-extra-night.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="row">
+    <div class="col-sm-8 col-md-7 ">
+      <p><strong>Finishing touches -</strong> The remainder of the extras had very few bookings between them, so few that ordinarily I would have recommended removing them from sale. However, we were contractually obliged to keep them on sale, so to reduce their prominence we categorised them and placed them within a collapsable accordion, so that they would only be exposed if a user was actively interested in that type of extra.</p>
+    </div>
+
+    <div class="col-sm-offset-1 col-sm-4 ">
+      <figure class="figure ">
+        <figcaption class="figure-caption">Proposed Finising Touch Design</figcaption>
+        <img src="img/finising-touch.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="ghostProducts">
+<div class="container">
+      
+  
+  <div class="row">
+  <h2 class="col-sm-12">Theme Park Resort Hotel Ghost Products</h2>
+    <div class="col-sm-12">
+      <h4>Problem </h4>
+      <p>Customers presented with a no availability message for resort hotels are often making a new search to find out about the hotel before having to then return to their original search if they decide against it.</p>
+      
+      <h4>Hypothesis</h4>
+      <p>By allowing customers to access information before re-submitting their search, we can shorten the user journey.</p>
+    </div>
+  </div>
+    <div class="row ">
+      <figure class="figure col-sm-6">
+        <figcaption class="figure-caption">Old No Availability Message</figcaption>
+        <img src="img/Desktop-Old.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+      <figure class="figure col-sm-6">
+        <figcaption class="figure-caption">Proposed Ghost Tile</figcaption>
+        <img src="img/Desktop-new.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+    </div>
+  <div class="row">
+    <div class="col-sm-12">
+
+      <h4>Solution</h4>
+      <ul>
+        <li>By presenting the unavailable hotel in a similar design to the rest of the hotels, they draw less attention and look a lot less “broken”.</li>
+        <li>Having all information accessible in the same way as any other hotel allows users to research the hotel before updating their search. </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="hotelControls">
+<div class="container">
+      
+  <div class="row">
+    <h2 class="col-sm-12">Hotel Controls and Summary</h2>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-5">
+      <h4>Problem </h4>
+      <p>User testing showed that customers struggled to use the hotel controls, completely missing the room selection drop down and becoming confused about the relationship of the labels to the controls. As an addition to this, many users were clicking back to change their search (either park date or ticket type).</p>
+      
+      <h4>Hypothesis</h4>
+      <p>By tidying up the controls, applying the correct use of white space and reducing the promience of the “contact block”, the controls will be clearer and easier to use.</p>
+
+      <h4>Solution</h4>
+      <ul>
+        <li>The contact block was moved into a modal triggered by a link in the newly formed header and the logo size was reduced.</li>
+        <li>Only 1.75% of people interacted with the “park date” control, so this was removed and a link was added within the newly formed summary to amend this, as well as ticket and party composition.</li>
+        <li>White space between labels and controls was reduced.</li>
+      </ul>
+    </div>
+
+    <div class="col-sm-7 ">
+      <figure class="figure">
+        <figcaption class="figure-caption">Old Hotel Controls</figcaption>
+        <img src="img/Desktop-old1.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+
+      <figure class="figure">
+        <figcaption class="figure-caption">New Hotel Controls</figcaption>
+        <img src="img/Desktop-new1.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+
+        <div class="row ">
+          <figure class="figure col-xs-6">
+            <figcaption class="figure-caption">New Hotel Controls (Mobile)</figcaption>
+            <img src="img/Mobile-new.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+          </figure>
+          
+          <figure class="figure col-xs-6">
+            <figcaption class="figure-caption">Old Hotel Controls (Mobile)</figcaption>
+            <img src="img/Mobile-old.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+          </figure>
+      </div> 
+    </div>
+  </div>
+    
+       
+</div>
+</section>
+
+<section id="callVolume">
+<div class="container">
+  <h2 class="row">Reducing call volume</h2>
+  <div class="col-sm-8">    
+      <h4>Problem </h4>
+      <p>Many enquiries in to the booking line were not from customers who had already booked their break.</p>
+      
+      <h4>Hypothesis</h4>
+      <p>Specific information on products booked within the package, as well as requesting a booking confirmation to be re-sent (often to a different e-mail address), were consistently appearing within the top for five reasons for a customer to phone the call centre. By making it easier for customers to self serve online, we would reduce call volume and save on business costs.</p>
+      
+      <h4>Solution</h4>
+      <ul>
+        <li>The functionality to view past booking confirmations, as well as request them to be re-sent already existed. However, access to this was hidden within the footer.</li>
+        <li>By moving access from the footer to the main navigation, calls requesting a confirmation re-send dropped by over 60% and out of the top five reasons for a call.</li>
+        <li>To address the remaining confirmation calls, as well as the information requests, we have enhanced the confirmation re-send functionality to allow customers to amend their own details (email, phone number, address, etc.), in addition to finding more specific information about the products they have booked.</li>
+      </ul>
+  </div>
+  <div class="col-sm-4">
+      <figure class="figure ">
+        <figcaption class="figure-caption">Manage my booking</figcaption>
+        <img src="img/manage-my-booking.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+  </div>
+</div>
+</section>
+
+<section id="roomSelection">
+<div class="container">
+  <h2 class="row">Room selection </h2>
+  <div class="row">
+      <h4>Problem </h4>
+      <p>User tests revealed that customers are unsure of what type of hotel room they are booking.</p>
+      
+      <h2>Hypothesis</h2>
+      <p>By simplifying and increasing the prominence of the room selection mechanism, users will be reassured that they are booking the correct room type.</p>
+
+      <h2>Solution</h2>
+      <ul>
+        <li>84.34% of all bookings on this site are for two people and of those 89.69% book a double room and 10.08% a twin room. </li>
+        <li>By finding out the corresponding data for bookings of other amounts of people, I was able to produce a set of room options that would cover off over 98% of all customers, but still allowed the remaining 2% to choose the correct room type.</li>
+      </ul>
+  </div>
+  
+  <div class="row ">
+    <div class="col-sm-8">
+      <figure class="figure">
+        <figcaption class="figure-caption">Old Room Selection controls</figcaption>
+        <img src="img/old.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+
+      <figure class="figure">
+        <figcaption class="figure-caption">New Room Selection controls</figcaption>
+        <img src="img/new.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+    </div>
+    
+    <div class="col-sm-4">
+      <figure class="figure">
+        <figcaption class="figure-caption">Room Combinations</figcaption>
+        <img src="img/room-selections.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="theatreConcept">
+<div class="container">
+
+  <h2 class="row">Theatre Breaks Mobile Concept </h2>
+  <div class="row"> 
+    <div class="col-sm-6">   
+      <h4>Problem </h4>
+      <p>User surveys and session recording show that customers on mobile devices are struggling to get through to the payment page to see a price and consequently book later on a desktop or tablet instead.</p>
+      
+      <h4>Hypothesis</h4>
+      <p>By creating a new mobile first booking flow focused on getting a bookable price in front of the customer, we can increase conversion on mobile devices, as well as speed up the process for users who are just researching with the intention of booking later.</p>
+
+    </div>
+    <div class="col-sm-6">
+      <figure class="figure">
+        <figcaption class="figure-caption">Paper Prototype</figcaption>
+        <img src="img/paper-mocks.jpg" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+    </div>
+
+
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-sm-6">
+      <figure class="figure">
+        <figcaption class="figure-caption">Concept flow</figcaption>
+        <img src="img/flow.png" class="img-responsive figure-img img-fluid img-rounded" alt="" />
+      </figure>
+    </div>
+
+    <div class="col-sm-6">      
+      <h4>Solution</h4>
+      <p>After several iterations of prototyping (paper prototypes put onto a physical device using https://popapp.in), we managed to reduce the time it takes to get to the payment page with a basic bookable price from eight complex steps to four, if they came from a generic landing page and three steps if they came from a show specific landing page.</p>
+      <ul>
+        <li>Past data told us that 84.34% of bookings are for two adults, of that 89.69% book a double room. So, we are able to default these two options and allow them to be amended later.</li>
+        <li>89% of all bookings were for an evening performance, rather than an afternoon one, so this was also defaulted.</li>
+        <li>In order to find the basic cheapest price, we decided to default seat and hotel selection to the cheapest available. With this in mind, we could then sell the more expensive seats and hotels as “upgrades”. </li>
+        <li>The next step would be to start trialling pairing certain hotels that regularly get booked with a certain shows, in order to provide a better package straight after the initial search. </li>
+      </ul>
+
+    </div>
+  </div>
+
+</div>
+</section>
+
+
+
+    
+
+  </body>
+
+</html>
